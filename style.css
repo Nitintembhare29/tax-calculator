@@ -1,0 +1,80 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px;
+  position: relative;
+}
+.form {
+  border: 1px solid #c8cbce;
+  padding: 2rem;
+}
+.custom-tooltip {
+  --bs-tooltip-bg: #374450;
+  --bs-tooltip-color: var(--bs-white);
+}
+.form-group {
+  margin: 20px 0;
+}
+.form-group input {
+  border: none;
+}
+
+.form-group select {
+  border: none;
+}
+.form-group input:focus {
+  box-shadow: none;
+}
+
+.form-group select:focus {
+  box-shadow: none;
+}
+
+.fa-circle-exclamation {
+  background-color: white;
+  color: red;
+}
+.input-fields {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #c8cbce;
+  padding: 2px;
+  border-radius: 5px;
+}
+label {
+  margin-bottom: 5px;
+}
+.btn1 {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-fields span {
+  display: none;
+}
+.myModal {
+  width: 800px;
+  height: 70%;
+  border: 1px solid #c8cbce;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.open-modal {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.btn2 {
+  margin-top: 2rem;
+}
